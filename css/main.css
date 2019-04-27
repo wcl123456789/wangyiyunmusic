@@ -1,0 +1,133 @@
+.header{
+	height: 40px;
+	background: yellow;
+}
+.topbar-nav{
+	
+	height: 40px;
+	background: red;
+	
+}
+.navleft{
+	width: 709px;
+	height: 40px;
+	background: blue;
+	float: left;
+}
+.navright{
+	width: 283px;
+	height: 40px;
+	background: green;
+}
+.containner{
+	height: 100px;
+	background: pink;
+}
+.containner-left{
+	width: 55px;
+	height: 55px;
+	background: cyan;
+}
+.containner-mid{
+	width:850px;
+	height: 100px;
+	background: chartreuse;
+}
+.containner-right{
+	width:245px;
+	height: 50px;
+	background: chocolate;
+}
+.containner-na{
+	width:52px;
+	height: 50px;
+	background: #00FFFF;
+}
+/*轮播图*/
+.img{
+	height: 460px;
+	background: rosybrown;
+	position: relative;
+}
+.img img{
+	width:1226px ;
+	height: 460px;
+}
+.img-left{
+	width:234px;
+	height: 420px;
+	background:yellow;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 20px 0;
+	
+}
+.img-left li{
+	height: 42px;
+	line-height: 42px;
+	padding: 0 30px;
+	
+}
+/*.img-left .ss{
+	background: orange;
+}*/
+.img-left li a{
+	color: white;
+	
+}
+.img-left li span{
+	float: right;
+	color:white;
+}
+.img-left li:hover{
+	background: orange;
+}
+.img-left .ss div{
+	width: 100px;
+	height: 100px;
+	background: white;
+	position: absolute;
+	top: 20px;
+	left: 234px;
+	display: none;
+}
+.img-left li a:hover+.img-left .ss div{
+	display: block;
+}
+.img-pick{}
+	width:41px;
+	height: 69px;
+	background:brown;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.img-pick2{
+	width:41px;
+	height: 69px;
+	background:brown;
+	position: absolute;
+	top: 0px;
+	right: 100px;
+}
+/*四图*/
+.row{
+	width:1240px;
+	height: 170px;
+	background:blue;
+	margin: 0px auto;
+}
+.row-left{
+	width:234px;
+	height: 170px;
+	background:palegreen;
+}
+.row-right{
+	width:978px;
+	height:170px;
+	background:gray;
+}.img-img{
+	height: 120px;
+	background: red;
+}
